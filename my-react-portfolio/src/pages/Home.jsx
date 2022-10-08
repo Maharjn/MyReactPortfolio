@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroIntroduction from '../containers/Home/HeroIntroduction';
+import About from '../components/Home/About';
 import BaseLayout from '../layouts/BaseLayout'
 import css from "./Home.module.css";
 
@@ -15,10 +15,10 @@ export default function Home() {
   
       
 
-      <section  className={css.hero} >
+      <section  >
 
 
-          <HeroIntroduction/>
+          <About/>
 
 
 

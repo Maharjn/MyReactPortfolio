@@ -1,5 +1,4 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import logo from './logo.svg';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 
