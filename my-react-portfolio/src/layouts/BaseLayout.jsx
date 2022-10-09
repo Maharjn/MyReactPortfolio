@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './nav/Navbar'
+import Footersec from '../components/Footer/Footer'
 
 
 export default function BaseLayout(props) {
@@ -15,7 +16,7 @@ export default function BaseLayout(props) {
 
       {/* footer */}
       
-
+      <Footersec/>
 
     </main>
   )

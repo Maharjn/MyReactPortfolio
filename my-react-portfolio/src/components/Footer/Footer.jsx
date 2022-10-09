@@ -1,8 +1,7 @@
 import React from 'react';
-import "./footer.scss";
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import TwitterIcon from '@material-ui/icons/Twitter';
+import "./Footer.scss";
+import GitHubIcon from '@mui/icons-material/GitHub';
+
 
 
 function Footer() {
@@ -11,8 +10,7 @@ function Footer() {
         <div className="footer" id="footer">
         <ul>
             <li><a href="https://github.com/Maharjn" target="_blank" rel="noreferrer"><GitHubIcon className="icon"></GitHubIcon></a></li>
-            <li><a href="#" target="_blank" rel="noreferrer"><LinkedInIcon className="icon"></LinkedInIcon></a></li>
-            <li><a href="#" target="_blank" rel="noreferrer"><TwitterIcon className="icon"></TwitterIcon></a></li>
+           
         </ul>
     </div>
         );

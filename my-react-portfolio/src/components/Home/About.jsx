@@ -1,6 +1,7 @@
 import React from 'react';
 import "./About.scss"
 import { useEffect, useRef } from 'react';
+import contactme from "../../assets/Avatar.jpg";
 import { init } from 'ityped';
 
 
@@ -21,7 +22,7 @@ function About() {
         <div className="about" id="about">
             <div className="left">
                 <div className="imgContainer">
-                    <img src="{window.location.origin + '/Images/user.png'" alt="Maha Profile Pic" />
+                    <img src={contactme} alt="Maha Profile Pic" />
                 </div>
             </div>
             <div className="right">

@@ -1,7 +1,8 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
-import Portfolio from './components/Portfolio/Portfolio';
+import Portfolio from './pages/Portfolio';
+import Footer from './pages/Footer';
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
       path: '/portfolio',
       element: <Portfolio/>,
       
-    }
+    },
   ]);
 
   return (

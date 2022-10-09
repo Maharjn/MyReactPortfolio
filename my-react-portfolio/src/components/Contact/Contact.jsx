@@ -3,6 +3,8 @@ import "./Contact.scss"
 import { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
+import contactme from "../../assets/contact.jpg"
+
 
 function Contact() {
 
@@ -17,7 +19,7 @@ function Contact() {
     return (
         <div className="contact" id="contact">
             <div className="left">
-            < img src="../../Assets/Images/contact-me.jpg" alt="Message me" />
+            < img src={contactme} alt="Message me" />
            </div>
             <div className="right">
                 <h2>Contact</h2>
