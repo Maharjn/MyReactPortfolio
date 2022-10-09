@@ -1,12 +1,12 @@
 import React from 'react'
 import BaseLayout from '../layouts/BaseLayout'
-import Contact from '../components/Contact/Contact';
+import Portfolio from '../components/Portfolio/Portfolio';
 
-export default function ContactMe() {
+export default function PortfolioMe() {
   return (
 
     <BaseLayout>
-       <Contact/>
+       <Portfolio/>
     </BaseLayout>
   )
 }

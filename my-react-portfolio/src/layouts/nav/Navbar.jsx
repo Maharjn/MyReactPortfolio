@@ -29,9 +29,14 @@ export default function Navbar() {
             <Link style={{textDecoration: 'none',color:'white',marginRight:20}}  to="/">
                 About Me
             </Link>
-            <Link style={{textDecoration: 'none',color:'white'}} to="/contact">
+            <Link style={{textDecoration: 'none',color:'white',marginRight:20}} to="/contact">
 
                 Contact Me
+            
+            </Link>
+            <Link style={{textDecoration: 'none',color:'white',marginRight:20}} to="/portfolio">
+
+                Portfolio
             
             </Link>
         </Toolbar>

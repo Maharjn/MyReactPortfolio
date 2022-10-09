@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
+import Portfolio from './components/Portfolio/Portfolio';
 
 function App() {
 
@@ -12,7 +13,12 @@ function App() {
     },
     {
       path: '/contact',
-      element: <Contact/>
+      element: <Contact/>,
+      
+    },
+    {
+      path: '/portfolio',
+      element: <Portfolio/>,
       
     }
   ]);

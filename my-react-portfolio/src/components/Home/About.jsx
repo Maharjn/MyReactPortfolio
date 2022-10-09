@@ -21,7 +21,7 @@ function About() {
         <div className="about" id="about">
             <div className="left">
                 <div className="imgContainer">
-                    <img src="../Assets/Images/user.png" alt="Maha Profile Pic" />
+                    <img src="{window.location.origin + '/Images/user.png'" alt="Maha Profile Pic" />
                 </div>
             </div>
             <div className="right">
